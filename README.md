@@ -24,7 +24,7 @@ The script is run from the command line and takes the following arguments:
 Here's an example of how to run the script:
 
 ```bash
-python main.py --uri mongodb://localhost:27017/ --database mydatabase --collection mycollection --deep 1000 --numdocs 500 --batchsize 100
+python load.py --uri mongodb://localhost:27017/ --database mydatabase --collection mycollection --deep 1000 --numdocs 500 --batchsize 100
 ```
 
 This will load 500 documents into the mycollection collection of the mydatabase database at mongodb://localhost:27017/. Each document will have an array size of 1000 and the documents will be loaded in batches of 100.
