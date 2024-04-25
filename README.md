@@ -9,7 +9,12 @@ This Python script loads documents into a MongoDB database. It uses the `loaddat
 - `faker` library
 - `tqdm` library
 - `datetime` library
-  
+
+
+```bash
+pip3 install -r requirements.txt 
+```
+
 ## Usage
 
 The script is run from the command line and takes the following arguments:
